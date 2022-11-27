@@ -29,8 +29,7 @@ function SingIn(){
             <input type={'text'} className="inputs"></input>
             <label>Password* :</label>
              <input type={'password'} className="inputs"></input>
-             <button className="btn"><span>Sing in</span></button>
-           
+             <button className="btn"><span>Sing in</span></button>   
         </form> 
       </div>
     </div>

@@ -1,0 +1,28 @@
+
+ .headerRight{
+    display: flex;
+    justify-content: space-between;
+   ul {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     .totals{
+      position: absolute;
+      margin: 0 0 0 -65px;
+      font-size: 14pt;
+     }
+      .link{
+        list-style-type: none;
+      }
+     li{
+      list-style-type: none;
+      margin-right: 30px;
+      font-size: 14pt;
+      &:hover{
+        box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+        transform: translateY(-5);
+        cursor: pointer;
+       }
+     }
+    }
+   }

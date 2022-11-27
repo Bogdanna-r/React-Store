@@ -1,0 +1,47 @@
+   .card{
+    border: 1px solid #f6d5ab;
+    width: 209x;
+    height: 270px;
+    border-radius: 40px;
+    margin-left:29px;
+    margin-bottom: 18px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+     cursor: pointer;
+     padding: 7px;
+       &:hover{
+        box-shadow: 0px 12px 20px ;
+        transform: translateY(-5);
+        background-color: #f6d5ab;
+       }
+   .favorite{
+    margin: 22px 0px;
+    display: inline;
+    }
+    .img {
+    margin: -21px 5px;
+    }
+    p{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12pt;
+    }
+   .w_shoes{
+    display: flex;
+    .shoe{
+    margin-left: 15px;
+    margin-right: 61px;
+    }
+    .btn{
+    width: 21px;
+    height: 19px;
+      &:hover{
+       box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+       transform: translateY(-5);
+       background-color: rgb(9, 170, 9);
+       }
+      .b_img{
+       margin-left: -4px;
+       }
+      }
+    }
+  }
