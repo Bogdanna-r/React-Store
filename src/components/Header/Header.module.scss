@@ -1,5 +1,12 @@
 
- .headerRight{
+body{
+  a{
+    text-decoration:none;
+    color: black;
+  }
+}
+
+.headerRight{
     display: flex;
     justify-content: space-between;
    ul {
@@ -13,6 +20,9 @@
      }
       .link{
         list-style-type: none;
+        a{
+          text-decoration:none;
+        }
       }
      li{
       list-style-type: none;
